@@ -4,13 +4,13 @@ const client = new Client();
 
 client
     .setEndpoint('https://cloud.appwrite.io/v1') // Replace with your Appwrite endpoint
-    .setProject('67341e4c001b124ade6d'); // Replace with your project ID
+    .setProject('6734a247000de2e14d7e'); // Replace with your project ID
 
 export const databases = new Databases(client);
 export const account = new Account(client);
 
 // Collection IDs
-export const INVENTORY_COLLECTION_ID = '6734349d0013efcfa8e3';
-export const ORDERS_COLLECTION_ID = '673434d8001fe1a94058';
-export const CUSTOMERS_COLLECTION_ID = '673435e7000a0b4cad77';
-export const DATABASE_ID = '6734347c002f169153db';
+export const INVENTORY_COLLECTION_ID = '6734a5a9002eba6cf470';
+export const ORDERS_COLLECTION_ID = '6734a5300029a0aff832';
+export const CUSTOMERS_COLLECTION_ID = '6734a4b60024d3bfdeb1';
+export const DATABASE_ID = '6734a4a8001ef2787575';
